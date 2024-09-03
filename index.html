@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main-input">
+        <div class="output-area">
+
+       <input id="main-inputarea" readonly>
+       
+<div class="input-area">
+  
+        <button onclick="mybtn('+')" id="oparator">+</button>
+        <button onclick="mybtn('7')">7</button>
+        <button onclick="mybtn('8')">8</button>
+        <button onclick="mybtn('9')">9</button>
+        </div>
+
+        <div class="input-area">
+            <button onclick="mybtn('-')" id="oparator">-</button>
+            <button onclick="mybtn('4')">4</button>
+            <button onclick="mybtn('5')">5</button>
+            <button onclick="mybtn('6')">6</button>
+            </div>
+    
+            <div class="input-area">
+                <button onclick="mybtn('*')" id="oparator">*</button>
+                <button onclick="mybtn('1')">1</button>
+                <button onclick="mybtn('2')">2</button>
+                <button onclick="mybtn('3')">3</button>
+                </div>
+        
+                <div class="input-area">
+                    <button onclick="mybtn('/')" id="oparator">/</button>
+                    <button onclick="mybtn('0')">0</button>
+                    <button onclick="mybtn('.')">.</button>
+                    <button id="calculate" onclick="calculate('=')">=</button>
+                    </div>
+            
+                    <div class="input-area">
+                        <button onclick="clearbtn('c')" id="oparator">c</button>
+                    
+                        </div>
+       </div>
+        </div>
+      
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
